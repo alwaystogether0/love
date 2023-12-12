@@ -1,0 +1,19 @@
+header{
+    background-image: url(dog1.jpg);
+    background-size:cover;
+    background-position : center top;
+    background-attachment: fixed;
+}
+
+body {font-family: 'Noto Sans KR', sans-serif;}
+
+h1,h2,h3,h4 { font-family: 'Gugi';
+}
+
+.gugi-font{font-family:'Bagel Fat One'}
+.dropdown-item, .nav-link{font-family:'Nanum Gothic'}
+
+#sns-links{
+    background-position: center;
+    background-attachment : fixed ;
+    }
