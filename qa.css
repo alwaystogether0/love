@@ -1,0 +1,7 @@
+body {font-family: 'Noto Sans KR', sans-serif; background-color: #F7F7F7}
+
+h1,h2,h3,h4 { font-family: 'Gugi';
+}
+
+.gugi-font{font-family:'Bagel Fat One';font-size: 28px; color:#555555}
+.dropdown-item, .nav-link,p{font-family:'Nanum Gothic';color:#555555}

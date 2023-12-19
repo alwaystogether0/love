@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>애견카페</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="cafestyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+  <body>
+    
+<!--네비게이션 영역 시작
+
+    -->
+    <nav class="navbar navbar-expand-md" style="background-color: rgba(105, 185, 130, 0.334);">
+      <div class="container">
+      
+          <a class="gugi-font navbar-brand" href="index.html">
+              <img src="tongkylogo.png" width="50" height="50" alt="로고">
+              댕댕이와 함께</a>
+      
+              <button class="navar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+              aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴" >
+          <span class="navar-toggler-icon"></span>
+          </button>
+      
+          <div class="navbar-collapse collapse col-9" id="nav-menu">
+              <ul class="navbar-nav ms-auto my-2">
+      
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="주소" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html" target="_blank">소개</a></li>
+       
+                  </ul>
+                </li>
+      
+      
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="주소" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        애견카페
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="cafe.html" target="_blank">경기도</a></li>
+                        <li><a class="dropdown-item" href="#" target="_blank">서울특별시</a></li>
+                      
+                        <li><a class="dropdown-item" href="#">강원도</a></li>
+                        <li><a class="dropdown-item" href="#">충청도</a></li>
+                        <li><a class="dropdown-item" href="#">전라도</a></li>
+                        <li><a class="dropdown-item" href="#">경상도</a></li>
+                      </ul>
+                    </li>
+      
+      
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="주소1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        애견펜션
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">서울특별시</a></li>
+                        <li><a class="dropdown-item" href="#">경기도</a></li>
+                        <li><a class="dropdown-item" href="#">강원도</a></li>
+                        <li><a class="dropdown-item" href="#">충청도</a></li>
+                        <li><a class="dropdown-item" href="#">전라도</a></li>
+                        <li><a class="dropdown-item" href="#">경상도</a></li>
+                      </ul>
+                    </li>
+               
+             
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="주소1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        여행지
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="beach.html">멍비치</a></li>
+                        <li><a class="dropdown-item" href="#">계곡</a></li>
+                        <li><a class="dropdown-item" href="#">산</a></li>
+                        <li><a class="dropdown-item" href="#">기타</a></li>
+                      </ul>
+                    </li>
+      
+            
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="주소1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        커뮤니티
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="qa.html">Q&A 게시판</a></li>
+                        <li><a class="dropdown-item" href="#">예쁜 사진 나누기</a></li>
+                        <li><a class="dropdown-item" href="#">장소 공유</a></li>
+                        
+                  
+                      </ul>
+                    </li>
+      
+      
+              <div class="container-fluid col-3">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">search</button>
+                  </form>
+                </div>
+      
+          </div>
+      
+      
+      
+      </div>  
+      </nav>
+  
+  <!--네비게이션 영역 끝-->
+  
+
+    <section class="container overflow-hidden py-5" id="blog">
+        <div class="row py-5 gy-4">
+        <div class="col-sm-6 col-lg">
+        <div class="card">
+        <img src="images/cafe1.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페1">
+        <!--업체 등록 사진 https://map.naver.com/p/entry/place/36636441?lng=127.24128961341799&lat=37.5548409347496&placePath=%2Finformation&entry=plt&searchType=place&c=15.00,0,0,0,dh-->
+        <div class ="card-body text-center">
+        <h3 class="card-title fs-4" >카페스토리</h3>
+        <p class="card-text">남양주시 </p>
+        <p class="card-text"> 소형견, 대형견 운동장 및 산책로  </p>
+        <p class="card-text"> 영업시간 : 매일 10:30-21:00  </p>
+        <a href="https://map.naver.com/p/directions/-/14164435.566151422,4516729.230398709,%EC%B9%B4%ED%8E%98%EC%8A%A4%ED%86%A0%EB%A6%AC,36636441,PLACE_POI/-/null?c=11.00,0,0,0,dh" target="_blank" class="btn btn-success btn-sm" >길찾기</a>
+        </div>
+        </div>
+        </div>
+
+
+            <div class="col-sm-6 col-lg">
+            <div class="card">
+            <img src="images/cafe2.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페2">
+            <!--업체 등록 사진 https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%A0%EA%B2%AC%EC%B9%B4%ED%8E%98/place/1749632336?placePath=?entry=pll&from=nx&fromNxList=true&searchType=place&c=8.00,0,0,0,dh-->
+            <div class ="card-body text-center">
+            <h3 class="card-title fs-4" >네이처독</h3>
+            <p class="card-text"> 양주시 </p>
+            <p class="card-text">4000평 규모 애견카페</p>
+            <p class="card-text"> 영업시간 : 11:00-18:00(월 정기휴무)  </p>
+            <a href="https://map.naver.com/p/directions/-/14135472.416509036,4539413.812616177,%EB%84%A4%EC%9D%B4%EC%B2%98%EB%8F%85%20[%EC%95%A0%EA%B2%AC%EC%B9%B4%ED%8E%98,%20%EC%95%A0%EA%B2%AC%EC%9A%B4%EB%8F%99%EC%9E%A5],1749632336,PLACE_POI/-/null?c=11.00,0,0,0,dh" target="_blank" class="btn btn-success btn-sm" >길찾기</a>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+              <img src="images/cafe3.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페3">
+              <!--업체 등록 사진 https://map.naver.com/p/search/%ED%94%BC%ED%84%B0%ED%8E%AB%EC%B8%A0/place/1002737150?c=15.00,0,0,0,dh&isCorrectAnswer=true-->
+              <div class ="card-body text-center">
+              <h3 class="card-title fs-4" >피터펫츠</h3>
+              <p class="card-text"> 고양시 </p>
+              <p class="card-text">소형견, 대형견 운동장</p>
+              <p class="card-text"> 영업시간 : 11:00-20:00(주말 10:00~)  </p>
+              <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col-sm-6 col-lg">
+                <div class="card">
+                <img src="images/cafe4.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페4">
+                <!--업체 등록 사진 https://map.naver.com/p/search/%EC%83%8C%EB%93%9C%ED%94%BC%ED%94%BC/place/1679889586?c=15.00,0,0,0,dh&isCorrectAnswer=true-->
+                <div class ="card-body text-center">
+                <h3 class="card-title fs-4" >샌드피피</h3>
+                <p class="card-text"> 김포시 </p>
+                <p class="card-text">소중형견 운동장</p>
+                <p class="card-text"> 영업시간 : 11:00-21:00(금토일 ~22:00)  </p>
+                <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+                </div>
+                </div>
+                </div>
+        </div>
+  
+      
+
+        <!--2번째줄-->
+        
+    
+        <section class="container overflow-hidden py-5" id="blog">
+          <div class="row py-5 gy-4">
+
+
+            <div class="col-sm-6 col-lg">
+              <div class="card">
+              <img src="images/cafe3.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페3">
+              <!--업체 등록 사진 https://map.naver.com/p/search/%ED%94%BC%ED%84%B0%ED%8E%AB%EC%B8%A0/place/1002737150?c=15.00,0,0,0,dh&isCorrectAnswer=true-->
+              <div class ="card-body text-center">
+              <h3 class="card-title fs-4" >피터펫츠</h3>
+              <p class="card-text"> 고양시 </p>
+              <p class="card-text">소형견, 대형견 운동장</p>
+              <p class="card-text"> 영업시간 : 11:00-20:00(주말 10:00~)  </p>
+              <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+              </div>
+              </div>
+              </div>
+
+              <div class="col-sm-6 col-lg">
+                <div class="card">
+                <img src="images/cafe6.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페6">
+                <!--업체 등록 사진 https://m.place.naver.com/place/1221808553/photo?entry=pll&filterType=%EC%97%85%EC%B2%B4-->
+                <div class ="card-body text-center">
+                <h3 class="card-title fs-4" >바닐라브릭</h3>
+                <p class="card-text"> 남양주시 </p>
+                <p class="card-text">소형견, 대형견 존 구분</p>
+                <p class="card-text"> 영업시간 : 11:00-20:00 </p>
+                <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+                </div>
+                </div>
+                </div>
+  
+              <div class="col-sm-6 col-lg">
+              <div class="card">
+              <img src="images/cafe7.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페7">
+              <!--업체 등록 사진 https://m.place.naver.com/place/1060554610/home?entry=pll -->
+              <div class ="card-body text-center">
+              <h3 class="card-title fs-4" >테일45</h3>
+              <p class="card-text"> 용인시 </p>
+              <p class="card-text">5000평 규모 애견카페</p>
+              <p class="card-text"> 영업시간 : 10:00-22:00 </p>
+              <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+              </div>
+              </div>
+              </div>
+  
+
+
+
+              <div class="col-sm-6 col-lg">
+                <div class="card">
+                <img src="images/cafe8.jpg" width="100" height="200" class="card-img-bottom" alt="애견카페8">
+                <!--업체 등록 사진 https://m.place.naver.com/place/1890338517/home?entry=pll -->
+                <div class ="card-body text-center">
+                <h3 class="card-title fs-4" >자유로멍놀러와</h3>
+                <p class="card-text"> 파주시 </p>
+                <p class="card-text">5000평 규모 애견카페</p>
+                <p class="card-text"> 영업시간:11:00-20:00(주말:10-21) </p>
+                <a href="#" class="btn btn-success btn-sm" >길찾기</a>
+                </div>
+                </div>
+                </div>
+
+  
+
+          </div>
+      
+          <div class="d-flex justify-content-end m-auto">
+            <a href="#nav-menu"><i class="bi bi-arrow-up-square-fill"></i></a>
+          </div>
+          
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
